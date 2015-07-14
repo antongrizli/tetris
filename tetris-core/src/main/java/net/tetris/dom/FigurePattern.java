@@ -5,7 +5,7 @@ public class FigurePattern {
     private int centerX;
     private int centerY;
     private int nullzero;
-    public int howManyTime;
+    private int howManyTime;
 
     public FigurePattern(int centerX, int centerY, String... rows) {
         this.rows = rows;
